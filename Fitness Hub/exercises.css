@@ -1,0 +1,150 @@
+/* .all{
+    display: flex;
+    margin-top: 40px;
+}
+.header{
+    display: block;
+    height: 100%;
+    
+}
+.exe{
+    margin-left: 50px;
+    display: flex;
+}
+.exe img{
+    margin-left: 300px;
+    margin-top: -50px;
+    height: 200px;
+    width: 200px;
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+
+
+:root {
+    /* Colors */
+    --brand-color: hsl(46, 100%, 50%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    /* Fonts */
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --ff-playfair: 'Playfair Display', serif;
+
+
+}
+
+.row {
+    flex-direction: row-reverse;
+}
+
+.card-title {
+    padding-top: 10px;
+}
+
+.containers {   
+    display: flex;
+    height: 100vh;
+    z-index: 1;
+}
+
+html {
+    font-family: var(--ff-playfair);
+
+    scroll-behavior: smooth;
+}
+
+#execard {
+    width: 100%;
+    height: 100px;
+}
+
+.w-100 {
+    height: 150px;
+    width: 100%;
+}
+
+.card-text {
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+#execont {
+    display: flex;
+    margin-left: 38px;
+}
+
+#num {
+    font-size: 40px;
+    color: hsl(46, 100%, 50%);
+    margin: 5px;
+}
+
+#totalworkout {
+    margin: 20px;
+}
+
+#totaltime {
+    margin: 20px;
+}
+
+#start {
+    margin: 24px;
+    margin-left: 58px;
+    border: none;
+    background-color: hsl(46, 100%, 50%);
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+#start:hover {
+    background-color: white;
+    color: hsl(46, 100%, 50%);
+}
+
+#desc {
+    margin-left: 60px;
+    margin-top: 40px;
+
+    width: 70%;
+
+    color: white;
+    font-weight: 400;
+}
+
+#txt {
+    color: white;
+}
+
+.img1 {
+    background-image: url(./assets/images/fullbodylosss.png);
+    height: 100vh;
+    position: sticky;
+    overflow: hidden;
+    margin-right: 20px;
+    background-repeat: round;
+    width: 50%;
+}
+
+#title {
+    font-size: 57px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    /* padding-top: 40px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: var(--ff-playfair);
+}
+.fa-solid{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.card{
+    width: 700px;
+}
