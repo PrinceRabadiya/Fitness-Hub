@@ -1,4 +1,4 @@
-# FIT-N-FIT : Exercise Visualization and Tracking App
+# Fitness  Hub: Exercise Visualization and Tracking App
 
 Welcome to the FIT-N-FIT App! This project aims to provide users with a comprehensive fitness experience by integrating exercise visualization features, personalized workout plans, and progress tracking tools. Whether you're a fitness enthusiast or just starting your journey, our app offers tailored solutions to help you achieve your fitness goals.
 
